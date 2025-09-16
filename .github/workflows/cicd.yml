@@ -3,8 +3,6 @@ name: Symfony CI/CD
 on: #dans branche main: push
     push:
         branches: ["main"]
-    pull_request:
-        branches: ["main"]
 
 jobs: #fait ce travail
     build-and-test:
